@@ -35,8 +35,7 @@ module.exports = function (grunt) {
     uglify: {
       release:{
         files: {
-          'dist/excel.js': 'excel.js',
-          'dist/echart.js':'echart.js'
+          'dist/component.js':'component.js'
         }
       }
     },
